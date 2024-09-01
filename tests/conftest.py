@@ -20,6 +20,7 @@ def browser_management():
 
     browser.config.window_width = 1920
     browser.config.window_height = 1080
+    browser.config.timeout = 30
 
     selenoid_login = os.getenv('SELENOID_LOGIN')
     selenoid_pass = os.getenv('SELENOID_PASS')
