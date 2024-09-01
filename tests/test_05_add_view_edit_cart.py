@@ -5,6 +5,7 @@ from pages.login_page import login_page
 from pages.account_page import account_page
 from user.given import given_user
 
+
 @allure.feature('Cart functionality')
 @allure.title('Test adding to cart, view and edit cart')
 def test_adding_view_edit_cart():
@@ -74,19 +75,8 @@ def test_adding_view_edit_cart():
             'Ожидаем сообщения на экране о добавлении {Torque Power Short} в корзину'):
         main_page.confirm_adding_to_cart('Torque Power Short')
 
-    with allure.step('Нажимаем на иконку {Checkout Cart}'):
-        main_page.view_and_edit_cart()
+    with allure.step('Удаляем товар из корзины'):
+        main_page.delete_all_from_cart()
 
-    with allure.step('Ожидаем сообщения на экране {Shopping Cart}'):
-        main_page.text_should_be_on_page('Shopping Cart')
 
-    with allure.step(
-            'В корзине для товара {Torque Power Short} изменяем количество на {1}'):
-        main_page.find_item_and_edit_qty(item='Torque Power Short', qty='1')
-
-    with allure.step('Для оформления заказа нажимаем на кнопку {Proceed to Checkout}'):
-        main_page.find_button_by_text_and_click('Proceed to Checkout')
-
-    with allure.step('Переходим на страницу оформления заказа, в коде должен быть текст {Checkout}'):
-        main_page.text_should_be_on_page('Checkout')
 

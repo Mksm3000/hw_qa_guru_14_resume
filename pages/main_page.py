@@ -25,10 +25,10 @@ class MainPage:
         browser.element('.page.messages').with_(timeout=10).should(have.exact_text(
             f'You added {value} to your shopping cart.'))
 
-    def view_and_edit_cart(self):
-        browser.element('.action.showcart').click()
-        browser.element('.action.showcart.active').should(be.visible)
-        browser.element('.action.viewcart').click()
+    # def view_and_edit_cart(self):
+    #     browser.element('.action.showcart').click()
+    #     browser.element('.action.showcart.active').should(be.visible)
+    #     browser.element('.action.viewcart').click()
 
     def find_item_and_edit_qty(self, item, qty):
         required_item = browser.element(by.xpath(
@@ -55,6 +55,13 @@ class MainPage:
 
     def text_should_be_on_page(self, value):
         browser.element('.base').should(have.exact_text(value))
+
+    def delete_all_from_cart(self):
+        browser.element('.action.showcart').click()
+        count = len(browser.all('.action.delete'))
+        for _ in range(count):
+            browser.element('.action.delete').click()
+            browser.element('.action-primary.action-accept').click()
 
 
 main_page = MainPage()
