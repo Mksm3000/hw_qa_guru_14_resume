@@ -25,11 +25,6 @@ class MainPage:
         browser.element('.page.messages').with_(timeout=10).should(have.exact_text(
             f'You added {value} to your shopping cart.'))
 
-    # def view_and_edit_cart(self):
-    #     browser.element('.action.showcart').click()
-    #     browser.element('.action.showcart.active').should(be.visible)
-    #     browser.element('.action.viewcart').click()
-
     def find_item_and_edit_qty(self, item, qty):
         required_item = browser.element(by.xpath(
             "//tr[@class='item-info']//a[@title='{item}' "
