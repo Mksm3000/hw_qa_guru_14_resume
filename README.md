@@ -4,14 +4,12 @@
 }
 </style>
 
-
 <div class="center">
     <a href="https://magento.softwaretestingboard.com/"> <img src="resources/images/logo.svg"></a>
 </div>
 
 <h2 align="center"> Demo auto-tests LUMA store </h2>
 <h2 align="center"> Используемые инструменты в проекте </h2>
-
 
 <div class="image-container">
     <img src="resources/icons/python.svg" height="40">
