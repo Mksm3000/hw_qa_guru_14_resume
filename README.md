@@ -52,3 +52,13 @@ style="visibility:visible;max-width:100%;">
       </ul>
 </details>
 
+
+<h2> <img src="resources/icons/analytics.gif" height="40"> Запуск тестов и получение 
+отчета</h2>
+<h3>Локально</h3>
+<details>
+    <summary> 01. Склонировать репозиторий</summary>
+      <ul>
+        <li><code>git clone https://github.com/Mksm3000/hw_qa_guru_14_resume.git</code></li>
+      </ul>
+</details>
