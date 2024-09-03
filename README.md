@@ -1,16 +1,15 @@
+<p align="center" dir="auto">
+  <a href="https://magento.softwaretestingboard.com/" rel="nofollow">
+  <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+<img alt="LUMA" src="resources/images/logo.svg" width="300" height="100" 
+style="visibility:visible;max-width:100%;">
+    </picture></themed-picture>
+  </a>
+</p>
 
-<style>
-  div {
-    text-align: center;
-  }
-</style>
-
-<div>
-  <a href="https://magento.softwaretestingboard.com/"> <img src="resources/images/logo.svg"></a>
-</div>
 
 <h2 align="center"> Demo auto-tests LUMA store </h2>
-<h2 align="center"> Используемые инструменты в проекте </h2>
+<h3 align="center"> Используемые инструменты в проекте </h3>
 
 <div class="image-container">
     <img src="resources/icons/python.svg" height="40">
@@ -30,15 +29,13 @@
 <details>
     <summary><h2>Структура каталогов проекта</h2></summary>
       <ul>
-        <li><code>pages</code>Модули (классы страниц сайта и их методы)</li>
-        <li><code>resources</code>Ресурсы (иконки, скриншоты, gif)</li>
-        <li><code>tests</code>Тесты</li>
-        <li><code>user</code>Несколько типов юзеров для тестов</li>
-        <li><code>utils</code>Вспомогательные функции для работы с вложенями</li>
+        <li><code>pages:</code>Модули (классы страниц сайта и их методы)</li>
+        <li><code>resources:</code>Ресурсы (иконки, скриншоты, gif)</li>
+        <li><code>tests:</code>Тесты</li>
+        <li><code>user:</code>Несколько типов юзеров для тестов</li>
+        <li><code>utils:</code>Вспомогательные функции для работы с вложенями</li>
         <li><code>pytest.ini</code>Файл настроек и параметров тестирования</li>
         <li><code>requirements.txt</code>Файл с требованиями к проекту</li>
       </ul>
 </details>
-
-
 
