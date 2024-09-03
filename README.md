@@ -1,11 +1,12 @@
+
 <style>
-.center {
-  text-align: center;
-}
+  div {
+    text-align: center;
+  }
 </style>
 
-<div class="center">
-    <a href="https://magento.softwaretestingboard.com/"> <img src="resources/images/logo.svg"></a>
+<div>
+  <a href="https://magento.softwaretestingboard.com/"> <img src="resources/images/logo.svg"></a>
 </div>
 
 <h2 align="center"> Demo auto-tests LUMA store </h2>
