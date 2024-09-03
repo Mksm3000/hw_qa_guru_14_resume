@@ -27,15 +27,28 @@ style="visibility:visible;max-width:100%;">
 
 
 <details>
-    <summary><h2>Структура каталогов проекта</h2></summary>
+    <summary><h2><img src="resources/icons/flow-chart.gif" height="40"> Структура 
+каталогов проекта</h2></summary>
       <ul>
-        <li><code>pages:</code>Модули (классы страниц сайта и их методы)</li>
-        <li><code>resources:</code>Ресурсы (иконки, скриншоты, gif)</li>
-        <li><code>tests:</code>Тесты</li>
-        <li><code>user:</code>Несколько типов юзеров для тестов</li>
-        <li><code>utils:</code>Вспомогательные функции для работы с вложенями</li>
-        <li><code>pytest.ini</code>Файл настроек и параметров тестирования</li>
-        <li><code>requirements.txt</code>Файл с требованиями к проекту</li>
+        <li><code>pages:</code> Модули (классы страниц сайта и их методы)</li>
+        <li><code>resources:</code> Ресурсы (иконки, скриншоты, gif)</li>
+        <li><code>tests:</code> Тесты</li>
+        <li><code>user:</code> Несколько типов юзеров для тестов</li>
+        <li><code>utils:</code> Вспомогательные функции для работы с вложенями</li>
+        <li><code>pytest.ini</code> Файл настроек и параметров тестирования</li>
+        <li><code>requirements.txt</code> Файл с требованиями к проекту</li>
+      </ul>
+</details>
+
+<details>
+    <summary><h2><img src="resources/icons/ux.gif" height="40"> Список 
+тестов</h2></summary>
+      <ul>
+        <li>01 Переход по ссылкам методом <code>click()</code></li>
+        <li>02 Переход по ссылкам методом <code>hover()</code></li>
+        <li>03 Создание аккаунта</li>
+        <li>04 Ввод логина (успешный и неуспешный)</li>
+        <li>05 Работа с корзиной (добавить товар, исправить, удалить)</li>
       </ul>
 </details>
 
