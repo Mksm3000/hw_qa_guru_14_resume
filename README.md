@@ -81,10 +81,6 @@ style="visibility:visible;max-width:100%;">
 
 <details>
     <summary> После выполнения команды откроется браузер с отчетом</summary>
-      <ul>
-        <li><img src="resources/images/allure-report screen.png" width="600" 
-height="300" 
-style="visibility:visible;max-width:100%;"></li>
-      </ul>
+      <img src="resources/images/allure-report screen.png" style="visibility:visible;max-width:100%;">
 </details>
 
