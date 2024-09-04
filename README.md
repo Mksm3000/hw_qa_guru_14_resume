@@ -86,8 +86,22 @@ style="visibility:visible;max-width:100%;">
 
 
 <h3>Удалённо <img src="resources/icons/remote-access.gif" height="40"></h3>
-1) Необходимо открыть проект на <a href="https://jenkins.autotests.cloud/job/C13-ShamelessMax-14_Resume/">Jenkins</a> <img src="resources/icons/jenkins.svg" height="40">
 <details>
-    <summary> 2) Нажать на <code>Build Now</code></summary>
+    <summary> 1) Необходимо открыть проект на Jenkins <img src="resources/icons/jenkins.svg" height="40"></summary>
+        <ol>
+            <a href="https://jenkins.autotests.cloud/job/C13-ShamelessMax-14_Resume/">C13-ShamelessMax-14_Resume</a>
+        </ol>
+</details>
+
+
+<details>
+    <summary> 2) Для выполнения тестов нажать на <code>Build Now</code></summary>
       <img src="resources/images/jenkins page.png">
 </details>
+
+<details>
+    <summary> 3) По окончанию тестов для просмотра результатов нажать на иконку 
+<code>Allure Report</code></summary>
+      <img src="resources/images/jenkins page allure.png">
+</details>
+
