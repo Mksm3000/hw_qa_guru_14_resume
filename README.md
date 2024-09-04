@@ -52,7 +52,6 @@ style="visibility:visible;max-width:100%;">
       </ul>
 </details>
 
-
 <h2> <img src="resources/icons/analytics.gif" height="40"> Запуск тестов и получение 
 отчета</h2>
 <h3>Локально</h3>
@@ -62,3 +61,30 @@ style="visibility:visible;max-width:100%;">
         <li><code>git clone https://github.com/Mksm3000/hw_qa_guru_14_resume.git</code></li>
       </ul>
 </details>
+
+<details>
+    <summary> 2. Установить зависимости и запустить тесты</summary>
+      <ul>
+        <li><code>python -m venv .venv</code></li>
+        <li><code>source .venv/bin/activate</code></li>
+        <li><code>pip install -r requirements.txt</code></li>
+        <li><code>pytest .</code></li>
+      </ul>
+</details>
+
+<details>
+    <summary> 3. Получить отчет о прохождении тестов в allure</summary>
+      <ul>
+        <li><code>allure serve allure-results/</code></li>
+      </ul>
+</details>
+
+<details>
+    <summary> После выполнения команды откроется браузер с отчетом</summary>
+      <ul>
+        <li><img src="resources/images/allure-report screen.png" width="600" 
+height="300" 
+style="visibility:visible;max-width:100%;"></li>
+      </ul>
+</details>
+
