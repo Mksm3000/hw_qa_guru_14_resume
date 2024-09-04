@@ -105,3 +105,16 @@ style="visibility:visible;max-width:100%;">
       <img src="resources/images/jenkins page allure.png">
 </details>
 
+<h3>Дополнительно</h3>
+<details>
+    <summary> Уведомление о выполнении тестов может быть отправлено через Telegram 
+<img src="resources/icons/play.gif" height="40">
+</summary>
+        <img src="resources/images/telegram screen.png">
+</details>
+<details>
+    <summary>Процесс выполнения теста может быть сохранён в формате видео<img 
+src="resources/icons/video.gif" height="40">
+</summary>
+        <img src="resources/images/video.gif">
+</details>
