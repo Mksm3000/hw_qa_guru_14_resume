@@ -44,26 +44,26 @@ style="visibility:visible;max-width:100%;">
     <summary><h2><img src="resources/icons/ux.gif" height="40"> Список 
 тестов</h2></summary>
       <ul>
-        <li>01 Переход по ссылкам методом <code>click()</code></li>
-        <li>02 Переход по ссылкам методом <code>hover()</code></li>
-        <li>03 Создание аккаунта</li>
-        <li>04 Ввод логина (успешный и неуспешный)</li>
-        <li>05 Работа с корзиной (добавить товар, исправить, удалить)</li>
+        <li>1) Переход по ссылкам методом <code>click()</code></li>
+        <li>2) Переход по ссылкам методом <code>hover()</code></li>
+        <li>3) Создание аккаунта</li>
+        <li>4) Ввод логина (успешный и неуспешный)</li>
+        <li>5) Работа с корзиной (добавить товар, исправить, удалить)</li>
       </ul>
 </details>
 
 <h2> <img src="resources/icons/analytics.gif" height="40"> Запуск тестов и получение 
 отчета</h2>
-<h3>Локально</h3>
+<h3>Локально <img src="resources/icons/home-office.gif" height="40"></h3>
 <details>
-    <summary> 01. Склонировать репозиторий</summary>
+    <summary> 1) Склонировать репозиторий</summary>
       <ul>
         <li><code>git clone https://github.com/Mksm3000/hw_qa_guru_14_resume.git</code></li>
       </ul>
 </details>
 
 <details>
-    <summary> 2. Установить зависимости и запустить тесты</summary>
+    <summary> 2) Установить зависимости и запустить тесты</summary>
       <ul>
         <li><code>python -m venv .venv</code></li>
         <li><code>source .venv/bin/activate</code></li>
@@ -73,7 +73,7 @@ style="visibility:visible;max-width:100%;">
 </details>
 
 <details>
-    <summary> 3. Получить отчет о прохождении тестов в allure</summary>
+    <summary> 3) Получить отчёт о прохождении тестов в allure</summary>
       <ul>
         <li><code>allure serve allure-results/</code></li>
       </ul>
@@ -81,6 +81,13 @@ style="visibility:visible;max-width:100%;">
 
 <details>
     <summary> После выполнения команды откроется браузер с отчетом</summary>
-      <img src="resources/images/allure-report screen.png" style="visibility:visible;max-width:100%;">
+      <img src="resources/images/allure-report screen.png">
 </details>
 
+
+<h3>Удалённо <img src="resources/icons/remote-access.gif" height="40"></h3>
+1) Необходимо открыть проект на <a href="https://jenkins.autotests.cloud/job/C13-ShamelessMax-14_Resume/">Jenkins</a> <img src="resources/icons/jenkins.svg" height="40">
+<details>
+    <summary> 2) Нажать на <code>Build Now</code></summary>
+      <img src="resources/images/jenkins page.png">
+</details>
